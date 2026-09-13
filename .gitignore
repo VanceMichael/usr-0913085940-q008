@@ -1,12 +1,8 @@
 .env
-*.key
-*.pem
-node_modules/
-.venv/
-venv/
-dist/
-build/
+.env.*
+*.log
 coverage/
+node_modules/
+target/
 __pycache__/
-*.py[cod]
-.DS_Store
+*.db
